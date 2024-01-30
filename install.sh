@@ -11,8 +11,9 @@ sudo wget https://sourceforge.net/projects/dolibarr/files/Dolibarr%20ERP-CRM/18.
 sudo tar xvfz dolibarr-18.0.4.tgz
 sudo mv dolibarr-18.0.4/htdocs dolibarr
 sudo systemctl restart nginx
-sudo ip a
 sudo chown www-data:www-data dolibarr/conf/
 sudo mkdir documents
 sudo chown www-data:www-data documents
+sudo touch install.lock
+sudo ip a
 
