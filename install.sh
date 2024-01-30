@@ -13,4 +13,6 @@ sudo mv dolibarr-18.0.4/htdocs dolibarr
 sudo systemctl restart nginx
 sudo ip a
 sudo chown www-data:www-data dolibarr/conf/
+sudo mkdir documents
+sudo chown www-data:www-data documents
 
