@@ -17,6 +17,6 @@ services:
             DOLI_URL_ROOT: 'http://0.0.0.0'
             PHP_INI_DATE_TIMEZONE: 'Europe/Paris'
         ports:
-            - "80:80"
+            - "8080:80"
         links:
             - mariadb
