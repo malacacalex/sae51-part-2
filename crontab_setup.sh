@@ -1,1 +1,1 @@
-echo "0 0 * * 0 /chemin/vers/votre/save.sh" | crontab -
+echo "0 0 * * 0 ~/sae51-part-2/save.sh" | crontab -
