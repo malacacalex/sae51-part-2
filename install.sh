@@ -16,4 +16,4 @@ sudo mkdir documents
 sudo chown www-data:www-data documents
 sudo touch install.lock
 sudo ip a
-
+sudo apt install docker.io docker-compose
